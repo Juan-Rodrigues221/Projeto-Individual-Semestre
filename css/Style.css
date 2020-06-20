@@ -1,0 +1,135 @@
+body{
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: blueviolet 5px solid;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.header li{
+    float: left;
+    display: inline;
+    padding:0 1px 0 150px;
+}
+.header .TitleHeader{
+    float: left;
+}
+.header .TitleHeader h1{
+    margin: 0;
+}
+.nav{
+    float: right;
+    margin-top: 10px;
+}
+.header .highlight, .header .current a{
+    color: blueviolet;
+    font-weight: bold;
+}
+.header a:hover{
+    color: black;
+    font-weight: bold;
+}
+.showcase{
+    min-height: 500px;
+    background: url(img/ShowCase2.jpg) repeat;
+    text-align: center;
+    color: black;
+}
+.showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.showcase p{
+    font-size: 25px;
+}
+.box{
+    margin-top: 20px;
+}
+.box .Item_Box{
+    float: left;
+    width: 300px;
+    text-align: center;
+    padding: 25px;
+}
+.box .Item_Box img{
+    width: 90px;  
+}
+.box .Item_Box h3{
+    color: blueviolet;
+}
+.footer{
+    border-top:blueviolet 5px solid;
+    padding: 20px;
+    margin-top: 20px;
+    color: blueviolet;
+    background-color: white;
+    text-align: center;
+    margin-top: 0 5px 0 5px;
+}
+/*Assunto Pag Sobre*/
+.Assunto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+}
+.Assunto p{
+    font-size: 17px;
+}
+.Box_Assunto{
+    margin: 25px;
+    padding: 15px;
+    float: left;
+    width: 25%;
+    background-color: white;
+    border-bottom: blueviolet 5px solid;
+}
+.Assunto_Grande{
+    margin: 25px;
+    padding: 20px;
+    background-color: white;
+    border-bottom: blueviolet 5px solid;
+}
+/*Indicações*/
+.Indique{
+    text-align: center;
+    text-transform: uppercase;
+}
+.Indique p{
+    font-size: 17px;
+}
+.Indique_Box{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 25px;
+}
+.Indique_Box img{
+    border-radius: 39%;
+    padding: 5px;
+    background-color: white;
+    width: 90px;
+}
